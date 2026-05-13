@@ -1,0 +1,133 @@
+judge_model:
+  name: gpt-5.5
+  model_id: gpt-5.5          # VERIFY on yunwu dashboard
+  api_type: yunwu
+
+eval_models:
+  # ── OpenAI ────────────────────────────────────────────────────
+  - name: gpt-5.4
+    model_id: gpt-5.4        # VERIFY
+    api_type: yunwu
+    family: openai
+
+  - name: gpt-4.1
+    model_id: gpt-4.1        # VERIFY
+    api_type: yunwu
+    family: openai
+
+  - name: gpt-4.1-mini
+    model_id: gpt-4.1-mini   # VERIFY
+    api_type: yunwu
+    family: openai
+
+  # ── Anthropic ─────────────────────────────────────────────────
+  - name: claude-opus-4.7
+    model_id: claude-opus-4-7-20251101   # VERIFY
+    api_type: yunwu
+    family: anthropic
+
+  - name: claude-sonnet-4.6
+    model_id: claude-sonnet-4-6          # VERIFY
+    api_type: yunwu
+    family: anthropic
+
+  - name: claude-haiku-4.5
+    model_id: claude-haiku-4-5-20251001  # VERIFY
+    api_type: yunwu
+    family: anthropic
+
+  # ── Google ────────────────────────────────────────────────────
+  - name: gemini-2.5-pro
+    model_id: gemini-2.5-pro             # VERIFY
+    api_type: yunwu
+    family: google
+
+  - name: gemini-2.5-flash
+    model_id: gemini-2.5-flash           # VERIFY
+    api_type: yunwu
+    family: google
+
+  - name: gemini-2.5-flash-lite
+    model_id: gemini-2.5-flash-lite      # VERIFY
+    api_type: yunwu
+    family: google
+
+  # ── Doubao ────────────────────────────────────────────────────
+  - name: doubao-seed-2.0-pro
+    model_id: doubao-seed-2-0-pro        # VERIFY
+    api_type: yunwu
+    family: doubao
+
+  - name: doubao-seed-2.0-lite
+    model_id: doubao-seed-2-0-lite       # VERIFY
+    api_type: yunwu
+    family: doubao
+
+  - name: doubao-seed-1.8
+    model_id: doubao-seed-1-8            # VERIFY
+    api_type: yunwu
+    family: doubao
+
+  # ── Meta Llama ────────────────────────────────────────────────
+  - name: llama-4-maverick
+    model_id: meta-llama/Llama-4-Maverick-17B-128E-Instruct  # VERIFY
+    api_type: yunwu
+    family: meta
+
+  - name: llama-4-scout
+    model_id: meta-llama/Llama-4-Scout-17B-16E-Instruct      # VERIFY
+    api_type: yunwu
+    family: meta
+
+  - name: llama-3.3-70b
+    model_id: meta-llama/Llama-3.3-70B-Instruct              # VERIFY
+    api_type: yunwu
+    family: meta
+
+  # ── Qwen ──────────────────────────────────────────────────────
+  - name: qwen3-32b
+    model_id: Qwen/Qwen3-32B             # VERIFY
+    api_type: yunwu
+    family: qwen
+
+  - name: qwen3-8b
+    model_id: Qwen/Qwen3-8B             # VERIFY
+    api_type: yunwu
+    family: qwen
+
+  - name: qwen2.5-72b
+    model_id: Qwen/Qwen2.5-72B-Instruct # VERIFY
+    api_type: yunwu
+    family: qwen
+
+  # ── DeepSeek ──────────────────────────────────────────────────
+  - name: deepseek-v3.2
+    model_id: deepseek-v3.2             # VERIFY
+    api_type: yunwu
+    family: deepseek
+
+  - name: deepseek-r1
+    model_id: deepseek-r1               # VERIFY
+    api_type: yunwu
+    family: deepseek
+
+  - name: deepseek-v3
+    model_id: deepseek-v3               # VERIFY
+    api_type: yunwu
+    family: deepseek
+
+  # ── Mistral ───────────────────────────────────────────────────
+  - name: mistral-large-3
+    model_id: mistral-large-latest      # VERIFY
+    api_type: yunwu
+    family: mistral
+
+  - name: mistral-small-4
+    model_id: mistral-small-latest      # VERIFY
+    api_type: yunwu
+    family: mistral
+
+  - name: ministral-8b
+    model_id: ministral-8b-latest       # VERIFY
+    api_type: yunwu
+    family: mistral
